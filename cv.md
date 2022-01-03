@@ -4,8 +4,8 @@
 *******
 ## My Contact Info
 *******
-* **Adress:** Russia
-* **E-mail:** [DaceNerron@yandex.ru.ru](daceNerron@yandex.ru)
+* **Adress:** Saint Petersburg, Russia
+* **E-mail:** [DaceNerron@yandex.ru](daceNerron@yandex.ru)
 * **GitHub:** [DmitriyPopovDace](https://github.com/dmitriypopovdace)
 ## About Me
 _______
