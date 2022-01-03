@@ -14,3 +14,20 @@ I am 25 years old. I am a student of an engineering university. I am always stri
 * *HTML*
 * *CSS*
 * *Git*
+## Code Example
+_______
+```python
+x = int(input())
+if x > 0:
+    print(x)
+else:
+    print(-x)
+```
+## Education
+_______
+* **University:** BALTIC STATE TECHNICAL UNIVERSITY «VOENMEH» named after D.F. Ustinov, Aerospace engineering
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+## Laguages
+______
+* English A2
+* Russsian - Native 
