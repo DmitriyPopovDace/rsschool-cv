@@ -9,3 +9,8 @@
 * **GitHub:** [DmitriyPopovDace](https://github.com/dmitriypopovdace)
 ## About Me
 _______
+I am 25 years old. I am a student of an engineering university. I am always striving for new knowledge. That is why I chose IT. 
+* **Skills:**
+* *HTML*
+* *CSS*
+* *Git*
