@@ -9,6 +9,27 @@
     background-color: darkslategrey;
 }
 
+.menu {
+  margin: 20px auto;
+  width: 1024px;
+  font-family: "Cabin", sans-serif;
+  font-size: 27px;
+  line-height: 1.5;
+  background-color: var(--dark-gray-color);
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.menu a {
+  width: 136px;
+  margin: 40px auto 20px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: var(--dark-gray-color);
+}
 .container-centered {
     margin: 20px auto;
     width: 1024px;
