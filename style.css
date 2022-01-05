@@ -1,1 +1,212 @@
-Randomtext
+:root {
+    --dark-gray-color: #505050;
+    --light-gray-color: #0000;
+    --darkblue-color: #ecffb8;
+}
+
+.body {
+    box-sizing: border-box;
+    background-color: darkslategrey;
+}
+
+.menu {
+  margin: 20px auto;
+  width: 1024px;
+  font-family: "Cabin", sans-serif;
+  font-size: 27px;
+  line-height: 1.5;
+  background-color: var(--dark-gray-color);
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.menu a {
+  width: 136px;
+  margin: 40px auto 20px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: var(--dark-gray-color);
+}
+.container-centered {
+    margin: 20px auto;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+  
+  .blocks {
+    display: flex;
+    margin: 0 auto;
+}
+
+  .left-block {
+    width: 42%;
+    color: var(--dark-gray-color);
+    background-color: var(--darkblue-color);
+}
+  
+  .right-block {
+    width: 58%;
+    padding: 0 50px;
+    padding-top: 20px;
+    box-sizing: content-box;
+    background-color: rgb(200, 200, 200);
+ }
+  
+  header {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+  
+  header img {
+    margin-bottom: 10px;
+    border: 10px solid var(--pink-color);
+    border-radius: 50%;
+}
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+  
+  header h2 {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+  
+  main {
+    padding: 0 40px;
+}
+  
+  main h3 {
+    width: 136px;
+    margin: 40px auto 20px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: var(--dark-gray-color);
+}
+  
+  main .contacts h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: translate(0, -50%);
+}
+  
+  main li {
+    margin-bottom: 10px;
+}
+  
+  .contacts li img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+  .contacts li p {
+    display: inline;
+    vertical-align: middle;
+}
+  
+  .contacts a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+  
+  main :not(.contacts) ul {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+  
+  .right-block .right-header {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+  
+  .right-block .aboutmyself .right-header {
+    margin-top: 0;
+}
+  
+  .aboutmyself p {
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+  
+  .aboutmyself p:last-of-type {
+    margin-bottom: 0;
+}
+  
+  .right-block h3 {
+    flex: 1;
+    vertical-align: middle;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ligth-gray-color);
+    border-bottom: 2px solid var(--ligth-gray-color);
+}
+  
+  .right-block img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+  
+  .right-block p {
+    color: var(--ligth-gray-color);
+}
+  
+  .education p {
+    margin-left: 45px;
+}
+  
+  .education p strong {
+    font-weight: 100;
+}
+  
+   .code p {
+    margin-left: 45px;
+}
+  
+  pre {
+    margin-top: 20px;
+    padding-left: 10px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    background-color: #f5f5f5;
+}
+    footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    font-size: 0.8rem;
+    color: #111111;
+    background-color: var(--light-gray-color);
+  }
+  footer a {
+    text-decoration: none;
+    color: #030303;
+  }
+  
+  footer .github-icon {
+    margin-right: 10px;
+  }
+  
+  .my-github {
+    display: flex;
+    align-items: center;
+  }
+  
